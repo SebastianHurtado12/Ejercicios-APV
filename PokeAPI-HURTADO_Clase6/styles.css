@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+body {
+  background-image: url("./src/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1,
+h2 {
+  color: white;
+}
+nav > h2 {
+  color: black;
+}
+nav {
+  color: black;
+  padding: 5px;
+  background-color: white;
+  width: 20vw;
+  min-height: 40vh;
+  margin: 0 auto;
+  border-radius: 5%;
+  text-align: center;
+  border: 7px solid rgb(136, 40, 245);
+}
+
+main {
+  text-align: center;
+  padding: 5px;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  margin: 5px;
+  min-width: 7vw;
+  border-radius: 10px;
+  border: 2px solid rgb(149, 0, 248);
+  background-color: white;
+  transition-duration: 0.2s;
+}
+button:focus {
+  background-color: rgb(189, 0, 248);
+  border: 2px solid rgb(189, 0, 248);
+  color: white;
+}
+button:hover {
+  background-color: rgb(149, 0, 248);
+  color: white;
+}
+.imgPoke {
+  width: 200px;
+  height: 200px;
+}
+#contenedor-listado {
+  border: 7px solid rgb(136, 40, 245);
+  border-radius: 5%;
+  background-color: white;
+  padding: 15px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
